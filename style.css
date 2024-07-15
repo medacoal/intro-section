@@ -1,0 +1,54 @@
+:root {
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+  }
+  
+  p{
+      font-size: 1.2rem;
+  }
+  li, a{
+      text-decoration: none;
+      list-style: none !important;
+  }
+   .accordion-button, .accordion-button:focus, .accordion{
+      border: none !important;
+      box-shadow: none !important;
+      outline: none !important;
+      background-color: white !important;
+  }
+  .item-mobile{
+      margin-left: 1.2rem;
+  }
+  .hero-content{
+
+      width: 60%;
+  }
+  .hero-image{
+      width: 40%;
+  }
+  h1{
+    font-size: 6.5rem !important;
+    font-weight: 700 !important;
+  }
+  .brand-image{
+    width: 80px;
+  }
+
+  @media(max-width: 768px){
+    .hero{
+        height: auto !important;
+      }
+      .hero-content{
+        width: 100%;
+        margin: 0rem;
+        text-align: center;
+    }
+      .hero-image{
+        width: 100%;
+      }
+      h1{
+        font-size: 2rem !important;
+        text-align: center;
+      }
+  }
