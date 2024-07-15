@@ -31,6 +31,7 @@
   h1{
     font-size: 5rem !important;
     font-weight: 700 !important;
+    padding-top: 5rem;
   }
   .brand-image{
     width: 80px;
@@ -51,5 +52,9 @@
       h1{
         font-size: 2rem !important;
         text-align: center;
+        padding-top: 0rem !important;
+      }
+      .brand-image{
+        max-width: 80px !important;
       }
   }
